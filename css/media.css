@@ -1,0 +1,83 @@
+
+
+
+@media (max-width:850px){
+    .about__us_box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin-left: -13%;
+    }
+    .about__us_box a{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+        display: inline-block;
+        line-height: 1;
+        text-decoration: none; /* Убираем подчеркивание */
+        cursor: pointer;
+    }
+    
+}
+
+
+@media (max-width:700px){
+    .main_contener{
+        padding: 20px;
+        margin: 0 auto;
+    }
+    .about__us_box{
+        display:none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+        margin-left: -13%;
+    }
+ 
+    .burger__menu{
+        display: flex;
+    }
+
+}
+
+
+@media (max-width:500px){
+    .main_contener{
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .logo img{
+        width: 50%;
+    }
+
+    .burger__menu{
+        display: flex;
+    }
+    .menu .toggle {
+        position: relative;
+        width: 40px;
+        height:40px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 2rem;
+        transition: 1s;
+        z-index: 1000;
+      }
+
+      .menu {
+        position: relative;
+        width: 150px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: -40px;
+      }
+  
+}
