@@ -35,7 +35,8 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 25px;
-    margin-left: -7%;
+    margin-left: -12%;
+     text-align: center;
 }
 
 .about__us_box a {
@@ -64,7 +65,7 @@ header {
 
 
 .about__us_box a:after {
-    background-color: #4819f1;
+    background-color:rgb(30, 161, 221);
     /* Цвет линии при наведении на нее курсора мыши */
     display: block;
     content: "";
@@ -79,4 +80,9 @@ header {
 .about__us_box a:hover:after,
 .about__us_box a:focus:after {
     width: 100%;
+}
+
+
+.what_are_we_doing__contener{
+color: white;
 }

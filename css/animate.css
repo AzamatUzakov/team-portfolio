@@ -208,10 +208,10 @@
 
 /* networks */
 
-  
-  
-  
-  .menu {
+
+
+
+.menu {
     position: relative;
     width: 150px;
     height: 140px;
@@ -219,12 +219,12 @@
     justify-content: center;
     align-items: center;
     margin-right: -50px;
-  }
-  
-  .menu .toggle {
+}
+
+.menu .toggle {
     position: relative;
     width: 50px;
-    height:50px;
+    height: 50px;
     background: #fff;
     border-radius: 50%;
     display: flex;
@@ -234,22 +234,22 @@
     font-size: 2rem;
     transition: 1s;
     z-index: 1000;
-  }
-  
-  .menu.active .toggle {
+}
+
+.menu.active .toggle {
     transform: rotate(360deg);
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15),
-      0 0 0 2px #333,
-      0 0 0 8px #fff;
-  }
-  
-  .menu ul {
+        0 0 0 2px #333,
+        0 0 0 8px #fff;
+}
+
+.menu ul {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .menu ul li {
+}
+
+.menu ul li {
     position: absolute;
     left: 0;
     list-style: none;
@@ -258,36 +258,174 @@
     scale: 0;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
-  }
-  
-  .menu.active ul li {
+}
+
+.menu.active ul li {
     scale: 1;
-  }
-  
-  .menu ul li a {
+}
+
+.menu ul li a {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     transform: rotate(calc(360deg/-8 * var(--i)));
-    width: 40px;
-    height:40px;
+    width: 30px;
+    height: 30px;
     background: #fff;
     color: var(--color);
     border-radius: 50%;
     font-size: 1rem;
     transition: 0.5s;
     cursor: pointer;
-  }
-  
-  .menu ul li:hover a {
-    
+
+}
+
+.menu img {
+    width: 100%;
+}
+
+.menu ul li:hover a {
+
     font-size: 1.25rem;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15),
-      0 0 0 2px var(--color),
-      0 0 0 8px #fff;
-  }
+        0 0 0 2px var(--color),
+        0 0 0 8px #fff;
+}
 
-  .logo-github, .logo-instagram, .logo-telegram{
+.logo-github,
+.logo-instagram,
+.logo-telegram {
     margin-top: 5px;
-  }
+}
+
+
+
+/* 
+////////////////about_us_contener_menu///////////// */
+
+.container {
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    margin: 40px auto;
+    padding: 10px 0px 20px 0px;
+    border: 1px solid #111;
+    border-radius: 4px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.75);
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    display: none;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.link:after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    bottom: 50%;
+    left: -100%;
+    transition-delay: all 0.5s;
+    transition: all 0.5s;
+}
+
+.link:hover:after,
+.link.hover:after {
+    left: 100%;
+}
+
+.link .text {
+    text-shadow: 0px -40px 0px rgba(255, 255, 255, 1);
+    transition: all 0.75s;
+    transform: translateY(100%) translateZ(0);
+    transition-delay: all 0.25s;
+    color: rgb(30, 161, 221);
+}
+
+.link:hover .text,
+.link.hover .text {
+    text-shadow: 0px -40px 0px rgba(192, 137, 137, 0);
+    transform: translateY(0%) translateZ(0) scale(1.1);
+    font-weight: 600;
+}
+
+
+
+/* 
+ ///////////////////mario__animate//////////////// */
+
+.right__box {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    height: 400px;
+}
+
+.circle {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50%;
+    background: rgba(138, 43, 226, 0.02);
+}
+
+.right__box:nth-of-type(1) {
+    width: 200px;
+    height: 180px;
+    animation: rt 6s infinite linear;
+    box-shadow: 0 0 1px 0 blueviolet,
+        inset 0 0 10px 0 blueviolet;
+}
+
+.right__box:nth-of-type(2) {
+    width: 180px;
+    height: 200px;
+    animation: rt 10s infinite linear;
+    box-shadow: 0 0 1px 0 darkviolet,
+        inset 0 0 10px 0 darkviolet;
+}
+
+.right__box:nth-of-type(3) {
+    width: 210px;
+    height: 190px;
+    animation: rt 5s infinite linear;
+    box-shadow: 0 0 1px 0 darkmagenta,
+        inset 0 0 10px 0 darkmagenta;
+}
+
+.right__box:nth-of-type(4) {
+    width: 190px;
+    height: 210px;
+    animation: rt 15s infinite linear;
+    box-shadow: 0 0 1px 0 magenta,
+        inset 0 0 10px 0 magenta;
+}
+
+
+
+@keyframes rt {
+    100% {
+        transform: rotate(360deg);
+    }
+}

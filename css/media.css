@@ -38,6 +38,15 @@
     .burger__menu{
         display: flex;
     }
+    .menu {
+        position: relative;
+        width: 120px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: -50px;
+      }
 
 }
 
@@ -72,12 +81,16 @@
 
       .menu {
         position: relative;
-        width: 150px;
-        height: 140px;
+        width: 130px;
+        height: 130px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: -40px;
       }
+      
+    .menu_block_active{
+        display: block;
+    }
   
 }
