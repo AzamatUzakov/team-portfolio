@@ -39,7 +39,8 @@
             <div class="networks">
                 <div class="menu">
                     <div class="toggle">
-                        <ion-icon name="share-social"><img src="./img/share-icon.png" alt=""></ion-icon>
+                        <ion-icon name="share-social"><img src="./img/share-icon.png" style="    padding-bottom: 6px;"
+                                alt=""></ion-icon>
                     </div>
 
                     <ul>
@@ -71,28 +72,60 @@
 
 
 
+        <div class="center">
+            <div class="what_are_we_doing__contener">
+                <div class="left__box">
+                    <b>
+                        <h2>МЫ <br> СОЗДАЁМ<br> УНИКАЛЬНЫЕ<br> САЙТЫ!</h2>
+                    </b>
+                    <p>Наша веб-студия - это команда <br> профессионалов своего дела. <br> Быстрая работа, адекватные
+                        цены и,<br>
+                        конечно же, качественный результат!
+                    </p>
 
-        <div class="what_are_we_doing__contener">
-            <div class="left__box">
-                <b>
-                    <h2>МЫ <br> СОЗДАЁМ<br> УНИКАЛЬНЫЙ<br> ДИЗАЙН!</h2>
-                </b>
-                <p>Наша дизайн-студия - это команда профессионалов своего дела. Быстрая работа, адекватные цены и,
-                    конечно же, качественный результат!</p>
+                    <div class="order_btn">
 
-                <div class="order_btn">Заказать сайт</div>
-            </div>
+                        <a class="a_btn" href="#" style="--clr:#00ccff; --i:1">
+                            <span>Заказать сайт</span>
+                        </a>
+                    </div>
+                </div>
 
-            <div class="right__box">
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
+                <div class="right__box">
+                    <svg class="pl" viewBox="0 0 64 64" width="64px" height="64px" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#000" />
+                                <stop offset="100%" stop-color="#fff" />
+                            </linearGradient>
+                            <mask id="grad-mask">
+                                <rect x="0" y="0" width="64" height="64" fill="url(#grad)" />
+                            </mask>
+                        </defs>
+                        <circle class="pl__ring" cx="32" cy="32" r="26" fill="none" stroke="hsl(223,90%,55%)"
+                            stroke-width="12" stroke-dasharray="169.65 169.65" stroke-dashoffset="-127.24"
+                            stroke-linecap="round" transform="rotate(135)" />
+                        <g fill="hsl(223,90%,55%)">
+                            <circle class="pl__ball1" cx="32" cy="45" r="6" transform="rotate(14)" />
+                            <circle class="pl__ball2" cx="32" cy="48" r="3" transform="rotate(-21)" />
+                        </g>
+                        <g mask="url(#grad-mask)">
+                            <circle class="pl__ring" cx="32" cy="32" r="26" fill="none" stroke="hsl(283,90%,55%)"
+                                stroke-width="12" stroke-dasharray="169.65 169.65" stroke-dashoffset="-127.24"
+                                stroke-linecap="round" transform="rotate(135)" />
+                            <g fill="hsl(283,90%,55%)">
+                                <circle class="pl__ball1" cx="32" cy="45" r="6" transform="rotate(14)" />
+                                <circle class="pl__ball2" cx="32" cy="48" r="3" transform="rotate(-21)" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+
+
+
             </div>
         </div>
-
     </div>
-
     <div class="about_us_animatet_box">
 
         <div class="container">
@@ -109,7 +142,7 @@
         </div>
     </div>
 
-    <script src="./index.js"></script>
+    <script type="module" src="./index.js"></script>
     <script src="./event.js"></script>
 </body>
 
