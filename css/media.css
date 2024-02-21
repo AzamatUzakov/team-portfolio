@@ -49,6 +49,7 @@
         margin-left: -10px;
         margin-top: 40px;
     }
+   
     
     .order_btn {
         display: flex;
@@ -90,16 +91,54 @@
 
     .menu {
         position: relative;
-        width: 100px;
+        width: 130px;
         height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: -0px;
     }
-
+    .menu .toggle {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 2rem;
+        padding-top:15px ;
+        transition: 1s;
+        z-index: 1000;
+    }
+    
     .menu_block_active {
         display: block;
+    }
+    .what_are_we_doing__contener{
+     
+        margin-top: 10px;
+        
+        }
+
+    .what_are_we_doing__contener h2{
+        font-weight: 500;
+        word-spacing: 15px;
+        font-size: 45px;    
+        letter-spacing:5px;
+    
+    }
+    
+    .what_are_we_doing__contener p{
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 100%;
+        word-spacing: 7px;
+        letter-spacing:2px;
+    
+        margin-top: 20px;
     }
 
 }
@@ -136,21 +175,112 @@
         cursor: pointer;
         font-size: 2rem;
         transition: 1s;
+    padding-top:15px ;
         z-index: 1000;
     }
 
     .menu {
         position: relative;
-        width: 130px;
-        height: 130px;
+        width: 120px;
+        height: 120px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right: -40px;
+        margin-right: -0px;
     }
 
     .menu_block_active {
         display: block;
+    }
+    .what_are_we_doing__contener h2{
+        font-weight: 500;
+        word-spacing: 15px;
+        font-size: 40px;    
+        letter-spacing:5px;
+    
+    }
+    
+    .what_are_we_doing__contener p{
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 100%;
+        word-spacing: 5px;
+        letter-spacing:2px;
+        white-space: nowrap;
+    
+        margin-top: 20px;
+    }
+}
+
+
+
+@media (max-width:370px) {
+    .main_contener {
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    .burger__menu {
+        display: block;
+        overflow: hidden;
+        width: 70px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    .menu .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size: 2rem;
+        transition: 1s;
+    padding-top:10px ;
+        z-index: 1000;
+    }
+
+    .menu {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: -0px;
+    }
+
+    .menu_block_active {
+        display: block;
+    }
+    .what_are_we_doing__contener h2{
+        font-weight: 500;
+        word-spacing: 10px;
+        font-size: 30px;    
+        letter-spacing:5px;
+    
+    }
+    
+    .what_are_we_doing__contener p{
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 100%;
+        word-spacing: 5px;
+        letter-spacing:2px;
+        text-align: center;
+        margin:  0 auto;
+        white-space: wrap;
+    
+        margin-top: 20px;
     }
 }
 
