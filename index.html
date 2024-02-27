@@ -8,170 +8,307 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
     <div class="bg">
         <div id="universe"></div>
 
-    <div class="main_contener">
+        <div class="main_contener">
 
-        <header>
-            <div class="logo"><img width="70%" src="./img/87oMiC-LogoMakr.png" alt=""></div>
+            <header>
+                <div class="logo"><img width="70%" src="./img/87oMiC-LogoMakr.png" alt=""></div>
 
-            <div class="burger__menu"><svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80"
-                    onclick="this.classList.toggle('active')">
-                    <path class="line top"
-                        d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
-                    <path class="line middle" d="m 30,50 h 40" />
-                    <path class="line bottom"
-                        d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+                <div class="burger__menu"><svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="80"
+                        onclick="this.classList.toggle('active')">
+                        <path class="line top"
+                            d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+                        <path class="line middle" d="m 30,50 h 40" />
+                        <path class="line bottom"
+                            d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
 
-                </svg></div>
+                    </svg></div>
 
-            <div class="about__us_box">
-                <a href="#">ПОРТФОЛИО </a>
-                <a href="#">О НАС </a>
-                <a href="#">УСЛУГИ</a>
-            </div>
-
-            <div class="networks">
-                <div class="menu">
-                    <div class="toggle">
-                        <ion-icon name="share-social"><img src="./img/share-icon.png" style="    padding-bottom: 6px;"
-                                alt=""></ion-icon>
-                    </div>
-
-                    <ul>
-                        <li style="--i:1; --color: #c32aa3;">
-                            <a href="https://t.me/azik_5134j">
-                                <ion-icon class="logo-github" name="logo-github"><img src="./img/github.png"
-                                        alt=""></ion-icon>
-                            </a>
-                        </li>
-                        <li style="--i:7; --color: #c32aa3;">
-                            <a href="https://t.me/next_day2024">
-                                <ion-icon class="logo-instagram" name="logo-instagram"><img
-                                        src="./img/free-icon-telegram-logo-87413.png" alt=""></ion-icon>
-                            </a>
-                        </li>
-
-                        <li style="--i:8; --color: #ff0000;">
-                            <a href="https://t.me/azik_5134j">
-                                <ion-icon class="logo-telegram" name="logo-telegram"><img
-                                        src="./img/free-icon-instagram-1384031.png" alt=""></ion-icon>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="about__us_box">
+                    <a href="#">ПОРТФОЛИО </a>
+                    <a href="#">О НАС </a>
+                    <a href="#">УСЛУГИ</a>
                 </div>
-            </div>
 
+                <div class="networks">
+                    <div class="menu">
+                        <div class="toggle">
+                            <ion-icon name="share-social"><img src="./img/share-icon.png"
+                                    style="    padding-bottom: 6px;" alt=""></ion-icon>
+                        </div>
 
-        </header>
+                        <ul>
+                            <li style="--i:1; --color: #c32aa3;">
+                                <a href="https://t.me/azik_5134j">
+                                    <ion-icon class="logo-github" name="logo-github"><img src="./img/github.png"
+                                            alt=""></ion-icon>
+                                </a>
+                            </li>
+                            <li style="--i:7; --color: #c32aa3;">
+                                <a href="https://t.me/next_day2024">
+                                    <ion-icon class="logo-instagram" name="logo-instagram"><img
+                                            src="./img/free-icon-telegram-logo-87413.png" alt=""></ion-icon>
+                                </a>
+                            </li>
 
-
-
-        <div class="center">
-            <div class="what_are_we_doing__contener">
-                <div class="left__box">
-                    <b>
-                        <h2>МЫ <br> СОЗДАЁМ<br> УНИКАЛЬНЫЕ<br> САЙТЫ!</h2>
-                    </b>
-                    <p>Наша веб-студия - это команда <br> профессионалов своего дела. <br> Быстрая работа,
-                        адекватные
-                        цены и,<br>
-                        конечно же, качественный результат!
-                    </p>
-
-                    <div class="order_btn">
-
-                        <a class="a_btn" href="#" style="--clr:#00ccff; --i:1">
-                            <span>Заказать сайт</span>
-                        </a>
+                            <li style="--i:8; --color: #ff0000;">
+                                <a href="https://t.me/azik_5134j">
+                                    <ion-icon class="logo-telegram" name="logo-telegram"><img
+                                            src="./img/free-icon-instagram-1384031.png" alt=""></ion-icon>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <div class="right__box">
-                    <svg class="pl" viewBox="0 0 64 64" width="64px" height="64px" xmlns="http://www.w3.org/2000/svg">
-                        <defs>
-                            <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
-                                <stop offset="0%" stop-color="#000" />
-                                <stop offset="100%" stop-color="#fff" />
-                            </linearGradient>
-                            <mask id="grad-mask">
-                                <rect x="0" y="0" width="64" height="64" fill="url(#grad)" />
-                            </mask>
-                        </defs>
-                        <circle class="pl__ring" cx="32" cy="32" r="26" fill="none" stroke="hsl(223,90%,55%)"
-                            stroke-width="12" stroke-dasharray="169.65 169.65" stroke-dashoffset="-127.24"
-                            stroke-linecap="round" transform="rotate(135)" />
-                        <g fill="hsl(223,90%,55%)">
-                            <circle class="pl__ball1" cx="32" cy="45" r="6" transform="rotate(14)" />
-                            <circle class="pl__ball2" cx="32" cy="48" r="3" transform="rotate(-21)" />
-                        </g>
-                        <g mask="url(#grad-mask)">
-                            <circle class="pl__ring" cx="32" cy="32" r="26" fill="none" stroke="hsl(283,90%,55%)"
+
+            </header>
+
+
+
+            <div class="center">
+                <div class="what_are_we_doing__contener">
+                    <div class="left__box">
+                        <b>
+                            <h2>МЫ <br> СОЗДАЁМ<br> УНИКАЛЬНЫЕ<br> САЙТЫ!</h2>
+                        </b>
+                        <p>Наша веб-студия - это команда <br> профессионалов своего дела. <br> Быстрая работа,
+                            адекватные
+                            цены и,<br>
+                            конечно же, качественный результат!
+                        </p>
+
+                        <div class="order_btn">
+
+                            <a class="a_btn" href="#" style="--clr:#00ccff; --i:1">
+                                <span>Заказать сайт</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="right__box">
+                        <svg class="pl" viewBox="0 0 64 64" width="64px" height="64px"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#000" />
+                                    <stop offset="100%" stop-color="#fff" />
+                                </linearGradient>
+                                <mask id="grad-mask">
+                                    <rect x="0" y="0" width="64" height="64" fill="url(#grad)" />
+                                </mask>
+                            </defs>
+                            <circle class="pl__ring" cx="32" cy="32" r="26" fill="none" stroke="hsl(223,90%,55%)"
                                 stroke-width="12" stroke-dasharray="169.65 169.65" stroke-dashoffset="-127.24"
                                 stroke-linecap="round" transform="rotate(135)" />
-                            <g fill="hsl(283,90%,55%)">
+                            <g fill="hsl(223,90%,55%)">
                                 <circle class="pl__ball1" cx="32" cy="45" r="6" transform="rotate(14)" />
                                 <circle class="pl__ball2" cx="32" cy="48" r="3" transform="rotate(-21)" />
                             </g>
-                        </g>
-                    </svg>
+                            <g mask="url(#grad-mask)">
+                                <circle class="pl__ring" cx="32" cy="32" r="26" fill="none" stroke="hsl(283,90%,55%)"
+                                    stroke-width="12" stroke-dasharray="169.65 169.65" stroke-dashoffset="-127.24"
+                                    stroke-linecap="round" transform="rotate(135)" />
+                                <g fill="hsl(283,90%,55%)">
+                                    <circle class="pl__ball1" cx="32" cy="45" r="6" transform="rotate(14)" />
+                                    <circle class="pl__ball2" cx="32" cy="48" r="3" transform="rotate(-21)" />
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+            <div class="portfolio_contener">
+                <h1>Портфолио </h1>
+                <p> Мы делаем разные сайты, начиная с простого <a href="#" class="blue_color"> landing page сайта</a> до
+                    <a href="#" class="blue_color"> Кино-сайтов!</a>
+                </p>
+
+                <div class="ramka">
+                    <div class="flex_box">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img width="100%" src="./img/Uzum main razmer.png" alt="">
+                                </div>
+                                <div class="swiper-slide"><img width="100%" src="./img/Uzum kreslo.png" alt=""></div>
+                                <div class="swiper-slide"><img width="100%" src="./img/Uzum katalog.png" alt=""></div>
+                            </div>
+                            <div class="shadow"></div>
+
+                            <div class="textt">tmdb kino</div>
+                        </div>
+
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/Tmdb main.png" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/tmdb 2.png" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/tmdb 3.png" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/tmdb 4.png" alt=""></div>
+                            </div>
+                            <div class="shadow"></div>
+                            <div class="textt">tmdb kino</div>
+
+                        </div>
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/Valuet main.png" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/Valuet 2.png" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/Valuet 3.png" alt=""></div>
+                                <div class="swiper-slide"><img src="./img/Valuet 4.png" alt=""></div>
+                            </div>
+                            <div class="shadow"></div>
+                            <div class="textt">tmdb kino</div>
+
+                        </div>
+
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/landing 1.png" alt=""></div>
+
+                            </div>
+                            <div class="shadow"></div>
+                            <div class="textt">tmdb kino</div>
+
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/landing 2.png" alt=""></div>
+
+                            </div>
+                            <div class="shadow"></div>
+                            <div class="textt">tmdb kino</div>
+
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./img/landing 3.png" alt=""></div>
+
+                            </div>
+                            <div class="shadow"></div>
+                            <div class="textt">tmdb kino</div>
+                        </div>
+
+
+
+
+                    </div>
                 </div>
 
+            </div>
 
+            <div class="we_contener">
+                <h1>Кто мы</h1>
+                <p>Мы команда профисиолы своего дела, наша студия основана в <b>2022</b> году </p>
+                <p>За время своего существования мы успели создать <b>много проектов</b> и поработать с большим
+                    количеством
+                    разных клиентов!</p>
+
+
+                <div class="team">
+                    <h2>Наша <br>
+                        Команда:</h2>
+                    <div class="photo_flex_box">
+
+                        <div class="participant_box ">
+                            <img width="100%" height="300px" src="./img/photo_2023-11-23_22-04-09.jpg" alt="">
+
+                            <p class="name_p">Узаков <br> Азамат</p>
+                            <p class="profession">front разработчик</p>
+                        </div>
+                        <div class="participant_box">
+                            <img width="100%" height="100%" src="./img/лцщкл.jpg" alt="">
+
+                            <p class="name_p">Узаков <br> Азамат</p>
+                            <p class="profession">front разработчик</p>
+                        </div>
+                        <div class="participant_box">
+                            <img width="100%" height="100%" src="./img/лцщкл.jpg" alt="">
+
+                            <p class="name_p">Узаков <br> Азамат</p>
+                            <p class="profession">front разработчик</p>
+                        </div>
+                        <div class="participant_box">
+                            <img width="100%" height="100%" src="./img/лцщкл.jpg" alt="">
+
+                            <p class="name_p">Узаков <br> Азамат</p>
+                            <p class="profession">front разработчик</p>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
+
+
+            <div class="order_design_contener">
+                <h3>ЗАКАЗАТЬ САЙТ</h3>
+
+                <div class="networ_and_aboutUs_flex_box">
+
+                    <div class="left_networ_cont">
+
+                        <div class="facebk_case it">
+                            <div class="img_icon_box"><img src="./img/face book icon.png" alt="">Наша студия в Facebook
+                            </div>
+                        </div>
+
+                        <div class="tg_case it">
+                            <div class="img_icon_box"><img src="./img/telegram icon.png" alt="">Наша студия в Tg</div>
+                        </div>
+
+                    </div>
+
+                    <div class="right_aboutUs_cont">
+                        <h5>Почему стоит выбрать нас?</h5>
+                        <ul>
+                            <li>Дизайнеры с опытом более 2-х лет</li>
+                            <li>Большой спектр услуг</li>
+                            <li>Быстрое выполнение работы</li>
+                            <li>Ответственность</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <h6>Для заказа просто напиши в одну из наших соцсетей и мы обязательно поможем!</h6>
+            </div>
+
+            <div class="about_us_animatet_box">
+
+                <div class="container">
+                    <div class="link" id="" Home="">
+                        <div class="text">ПОРТФОЛИО</div>
+                    </div>
+                    <div class="link" id="" Projects="">
+                        <div class="text">О НАС</div>
+                    </div>
+                    <div class="link" id="" Art="">
+                        <div class="text">УСЛУГИ</div>
+                    </div>
+
+                </div>
+            </div>
+            <center>
+                <p class="span">PixelCrafters 2022 - 2024</p>
+            </center>
         </div>
-
-    </div>
-    <div class="about_us_animatet_box">
-
-        <div class="container">
-            <div class="link" id="" Home="">
-                <div class="text">ПОРТФОЛИО</div>
-            </div>
-            <div class="link" id="" Projects="">
-                <div class="text">О НАС</div>
-            </div>
-            <div class="link" id="" Art="">
-                <div class="text">УСЛУГИ</div>
-            </div>
-
-        </div>
-    </div>
-
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus iusto obcaecati odio velit quia tempore quos nemo
-    mollitia quasi consequuntur facilis officia necessitatibus, excepturi dolores adipisci, fugit veniam incidunt!
-    Ratione.
-    Porro sequi, molestias numquam quo necessitatibus tenetur perferendis voluptates nesciunt sapiente dolor dolorem
-    similique sit ratione saepe voluptatem mollitia magnam iure officia quam maiores rem. Eius sunt est at nihil!
-    Dolores totam perferendis iusto aspernatur, ea voluptate quisquam, est architecto, voluptates nobis quam cupiditate
-    modi hic sunt? Quam impedit dolore asperiores eaque omnis, dolorum cupiditate eveniet, ea distinctio eius delectus!
-    Qui voluptatibus ipsum placeat inventore provident facere laboriosam amet sit labore eaque consequuntur mollitia
-    aliquam quis harum dicta, beatae in repellat sint incidunt, nemo omnis fugiat expedita modi. Quia, sed!
-    Omnis explicabo alias dolores recusandae dolor saepe necessitatibus, distinctio facilis, qui quidem quisquam impedit
-    quam deserunt repellat aperiam veniam eveniet, cupiditate officiis ullam vero iste molestias voluptate quae.
-    Corrupti, doloremque.
-    Id, magni non. Inventore deleniti ut nesciunt? Amet soluta laborum molestias ullam blanditiis, est enim magnam iste,
-    similique corporis quasi obcaecati. Tenetur necessitatibus totam vero beatae laboriosam odit excepturi. Sequi.
-    Quis, facilis modi. Tenetur ipsa voluptatum beatae hic accusamus ipsam sapiente ea tempore! Dolorum repellat
-    doloribus totam dolor esse excepturi pariatur laboriosam officia vero molestias molestiae omnis quibusdam, quo
-    voluptatibus.
-    Similique iusto suscipit alias, tenetur quaerat cum quia voluptatum, provident incidunt esse architecto laudantium,
-    totam est veniam deserunt. Labore nobis debitis saepe. Quibusdam quos natus molestias odio veniam sed a!
-    Sit sapiente culpa, veritatis placeat dolor reiciendis necessitatibus illo doloremque aliquam neque corrupti earum?
-    Tempora id laudantium magnam veniam excepturi. Facere cum reprehenderit accusantium sit, consectetur excepturi
-    praesentium natus quam?
-    Illo vitae delectus asperiores, pariatur laudantium impedit repudiandae? Similique rerum eos iste molestiae magni,
-    labore fugiat officia praesentium minima. Sit consectetur quae exercitationem neque dolores quo quos adipisci enim
-    earum!
-</div>
-
-    <script type="module" src="./index.js"></script>
-    <script src="./event.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script type="module" src="./index.js"></script>
+        <script src="./event.js"></script>
 </body>
 
 </html>
